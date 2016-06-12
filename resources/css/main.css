@@ -1,0 +1,153 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+/*
+* Fuentes globales
+*/
+.pacifico{
+	font-family: 'Pacifico', cursive;
+}
+.quitar-float{
+	float: none;
+}
+.grande{
+	font-size: 3em;
+}
+.azul-marino{
+	color: #2C3E50;
+}
+.azul-fuerte{
+	color: #2980B9;
+}
+.azul-ligero{
+	color: #00B9E6;
+}
+.carmin{
+	color: #E74C3C;
+}
+.light{
+	color: #ECF0F1;
+}
+.retraso-1{
+	animation-delay: 0.2s;
+	-webkit-animation-delay: 0.8s;
+	-moz-animation-delay: 0.8s;
+}
+.retraso-2{
+	animation-delay: 1s;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+}
+.inline-block{
+	float: none;
+	margin-right: -4px;
+}
+.btn-amarillo{
+	background-color: #F5CB03;
+}
+
+
+/*
+* Codigo pagina PRINCIPAL
+*/
+.imagen-book-principal{
+	height: 280px;
+	max-width: 100%;
+}
+.espacio-arriba{
+	margin-top: 50px;
+}
+.espacio-abajo{
+	margin-bottom: 30px;
+}
+#principal a{
+	padding: 15px;
+}
+#principal a:hover{
+	text-decoration: none;
+	/*color: #E74C3C;*/
+}
+
+
+/*
+* Codigo pagina de inicio
+*/
+.menu-fondo{
+	background-color: #2C3E50;
+}
+#logo-menu{
+	margin-left: 10px;
+	background-color: #2C3E50;
+}
+#logo-menu a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+#barra-menu{
+	margin-top: 20px;
+}
+#barra-menu a{
+	color: #fff;
+	padding: 15px;
+	font-size: 18px;
+}
+#barra-menu a:hover{
+	text-decoration: none;
+	background-color: #fff;
+	color: #2C3E50;
+	border-radius: 5px;
+
+}
+.inicio-portada{
+	width: 100%;
+	height: 420px;
+	background-color: #00B9E6;
+}
+.logo-inicio-book{
+	height: 200px;
+	margin-top: 30px;
+}
+.entradas-inicio{
+	width: 100%;
+	height: 850px;
+}
+.entradas-inicio .entrada{
+	height: 200px;
+	background-color: #fff;
+	margin: 10px;
+	box-shadow: #ccc 1px 1px 1px 1px;
+	padding: 0px;
+}
+.entradas-inicio .inicio-post .entrada img{
+	width: 100%;
+	position: relative;
+	border: 0px;
+	max-width: 100%;
+}
+.entradas-inicio .inicio-post .entrada .imagen{
+	width: 100%;
+	max-width: 100%;
+}
+.entradas-inicio .inicio-post .barra-nav-publicaciones{
+	margin-top: 10px;
+	height: 250px;
+	background-color: #2C3E50;
+	box-shadow: #ccc 1px 1px 1px 1px;
+}
+.btn-amarillo p{
+	margin-bottom: -5px;
+	font-size: 2em;
+}
+
+/*
+* Codigo pagina de Signup
+*/
+.form-signup{
+	max-width: 330px;
+	margin: 0 auto;
+}
