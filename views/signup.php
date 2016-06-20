@@ -1,4 +1,15 @@
-<?php include("resources/barra-nav.php"); ?><br/>
+<?php 
+
+session_start();
+if(!isset($_SESSION['CORREO'])) 
+{
+	include("resources/barra-nav.php");
+}else{
+	include("resources/menu.php");
+	header("Location: views/profile.php");
+}
+
+?><br/>
 <div class="col-md-5 animated fadeInRight">
 	<form class="form-signup" action="config/registro.php" method="POST">
 		<h2>Crear una cuenta</h2>

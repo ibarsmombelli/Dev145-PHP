@@ -1,0 +1,23 @@
+	.blanco:hover{
+		color: #fff;
+	}
+	.publicacions-res{
+		height: 150px;
+		background-color: #fff;
+		border-style: solid;
+		margin-top:30px;
+		border-color: #ccc;
+		border-radius: 20px 0px 20px 0px;
+		height: auto;
+	}.pub{
+
+	}
+	.publicaciones-form{
+		margin-right: 100px;
+	}
+	.autor{
+		visibility: hidden;
+	}
+	.fecha{
+		visibility: hidden;
+	}

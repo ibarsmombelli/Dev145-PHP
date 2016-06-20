@@ -1,4 +1,16 @@
-<?php include("resources/barra-nav.php"); ?><br/>
+<?php 
+
+//creamos la sesion
+session_start();
+if(!isset($_SESSION['CORREO'])) 
+{
+	include("resources/barra-nav.php");
+}else{
+	include("resources/menu.php");
+	header("Location: views/profile.php");
+}
+
+?><br/>
 <div class="col-md-5 animated fadeInRight">
 	<form class="form-signup" action="views/sesion.php" method="POST">
 		<h2>Iniciar sesión</h2>

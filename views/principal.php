@@ -3,8 +3,30 @@
 	<h1 class="pacifico grande carmin animated bounceInDown retraso-1">Dev145</h1>
 	<h2 class="animated fadeInDown retraso-2">Ven, entra y aprende</h2>
 	<nav class="animated fadeInDown retraso-2 espacio-abajo">
+<?php 
+
+//creamos la sesion
+session_start();
+if(!isset($_SESSION['CORREO'])) 
+{
+	?>
+
+<nav class="animated fadeInDown retraso-2 espacio-abajo">
 		<a href="?_rdr=home">Inicio</a>
 		<a href="?_rdr=signup">Crear Cuenta</a>
 		<a href="?_rdr=login">Entrar</a>
 	</nav>
+	<?php
+}else{
+	?>
+
+	<nav class="animated fadeInDown retraso-2 espacio-abajo">
+		<a href="?_rdr=home">Inicio</a>
+		<a href="views/foro.php">Foro</a>
+		<a href="views/profile.php">Mi Perfil</a>
+	</nav>
+	<?php
+}
+
+ ?>
 </div>

@@ -9,6 +9,7 @@ if(isset($_POST['correo']) && !empty($_POST['correo']) && isset($_POST['pass']) 
 	$entrarConsulta = "SELECT * FROM USUARIOS WHERE CORREO = '$correo' AND PASS = '$pass'";
 	$entrar =  mysqli_query($link,$entrarConsulta);
 
+	
 
 //$row = mysqli_fetch_array($result)
 	if($row = mysqli_fetch_array($entrar)){
