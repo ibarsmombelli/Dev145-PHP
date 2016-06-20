@@ -1,5 +1,4 @@
 <?php
-//echo "Hola Mundo";
 /*
 * @Autor Juan Pablo Aranda Hernandez
 */
